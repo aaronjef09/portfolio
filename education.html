@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Education | Aaron Jef</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+    body { font-family: 'Poppins', sans-serif; background: #f8f9fa; color: #2d3436; }
+
+    header {
+      background-color: #6c5ce7;
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      background: white;
+      margin: 40px auto;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      animation: fadeIn 1.2s ease;
+    }
+
+    .profile-image {
+      width: 240px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-left: 5px solid #6c5ce7;
+      padding-left: 10px;
+    }
+
+    ul.custom-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.custom-list li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    ul.custom-list li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #6c5ce7;
+      font-weight: bold;
+    }
+
+    a.section-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #6c5ce7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.section-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Aaron Jef N. Barcega</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="skills.html">Skills</a>
+    <a href="experience.html">Experience</a>
+	<a href="project.html">Projects</a>
+  </nav>
+</header>
+<div class="container">
+  <h1>Educational Background</h1>
+  <p>Mabolo Elementary School - <b>Elementary</b></p>
+  <p>St. Matthew Academy of Cavite - <b>High School</b></p>
+  <p>San Sebastian College Recoletos De Cavite - <b>Senior High School</b></p>
+  <p>Cavite State University - BS in Information Technology - <b>College</b></p>
+
+  <p><a href="index.html">← Back to Profile</a></p>
+</div>
+</body>
+</html>
