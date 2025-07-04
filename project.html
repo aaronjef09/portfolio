@@ -103,39 +103,37 @@
     <div id="image1" class="image-container">
         <img src="dummy1.JPG" alt="Sample Image" width="500">
     </div>
-	<h2>ANIMAL IDENTIFIER PROGRAM</h2>
-	<p>This project identifies the type of animal by asking a series of questions. It helps users determine the animal they are thinking of based on their responses.</p>
+
+    <h2>ANIMAL IDENTIFIER PROGRAM</h2>
+    <p>This project identifies the type of animal by asking a series of questions. It helps users determine the animal they are thinking of based on their responses.</p>
     <button class="click-button" onclick="toggleImage('image2')">Click to Show/Hide ANIMAL IDENTIFIER PROGRAM</button>
     <div id="image2" class="image-container">
         <img src="dummy2.JPG" alt="Sample Image" width="500">
     </div>
-	
-	<h2>DISCOUNT BASED ON AGE AND AMOUNT CALCULATOR</h2>
-	<p>This project calculates the discount you are eligible for based on your age and the total amount of your purchase.</p>
+
+    <h2>DISCOUNT BASED ON AGE AND AMOUNT CALCULATOR</h2>
+    <p>This project calculates the discount you are eligible for based on your age and the total amount of your purchase.</p>
     <button class="click-button" onclick="toggleImage('image3')">Click to Show/Hide DISCOUNT PROJECT</button>
     <div id="image3" class="image-container">
         <img src="dummy3.JPG" alt="Sample Image" width="500">
     </div>
-	<h2>EVEN NUMBER CHECKER</h2>
-	<p>This program checks for even numbers among all numbers between 1 and 20.</p>
 
+    <h2>EVEN NUMBER CHECKER</h2>
+    <p>This program checks for even numbers among all numbers between 1 and 20.</p>
     <button class="click-button" onclick="toggleImage('image4')">Click to Show/Hide EVEN NUMBER PROGRAMS</button>
     <div id="image4" class="image-container">
         <img src="dummy4.JPG" alt="Sample Image" width="500">
     </div>
-	<br>
-	<br>
-	<p><a href="index.html">← Back to Profile</a></p>
+
+    <br><br>
+    <p><a href="index.html">← Back to Profile</a></p>
+    <p><a href="https://aaronjef09.github.io/revguard/">← Back to RevGuard Team</a></p>
 </div>
 
 <script>
     function toggleImage(imageId) {
         var selectedImage = document.getElementById(imageId);
-        if (selectedImage.style.display === 'block') {
-            selectedImage.style.display = 'none';
-        } else {
-            selectedImage.style.display = 'block';
-        }
+        selectedImage.style.display = (selectedImage.style.display === 'block') ? 'none' : 'block';
     }
 </script>
 
